@@ -14,6 +14,11 @@
 
   <button id="clickMe">Click Me!</button>
 
-  <script src="script.js"></script>
+  <script src="script.js">
+    HashChangeEvent = () => {
+      alert("Button clicked!");
+    };  
+    onclick = HashChangeEvent;
+  </script>
 </body>
 </html>
